@@ -80,9 +80,30 @@ function App() {
         <div>
           <h2>Get in Touch</h2>
           <div className="contact-box">
-            <p>+1234567890</p>
             <p>nadyadhyanti@gmail.com</p>
             <p>Jakarta, Indonesia</p>
+            <a
+              href="https://www.linkedin.com/in/nadyadhyanti"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={require("./image/linkedin_icon.png")}
+                alt="LinkedIn Logo"
+                className="linkedin-logo"
+              />
+            </a>
+            <a
+              href="https://github.com/butterrrscotch"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={require("./image/github_logo.png")}
+                alt="GitHub Logo"
+                className="github-logo"
+              />
+            </a>
           </div>
         </div>
       </div>

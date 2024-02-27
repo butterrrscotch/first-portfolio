@@ -89,3 +89,15 @@ h3 {
   margin-right: 10px; /* Add margin for spacing */
   margin-top: 5px;
 }
+
+.linkedin-logo {
+  width: 40px; /* Adjust the width as needed */
+  margin-right: 10px; /* Add margin for spacing */
+  margin-top: 10px;
+}
+
+.github-logo {
+  width: 40px; /* Adjust the width as needed */
+  margin-right: 20px; /* Add margin for spacing */
+  margin-top: 10px;
+}
