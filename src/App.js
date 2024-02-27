@@ -16,7 +16,7 @@ function App() {
       >
         <div>
           <h1 className="resume-heading">Resume</h1>
-          <h2 className="resume-subtitle">Nadya | People Analyst</h2>
+          <h2 className="resume-subtitle">Dhyanti, Nadya ✨ People Analyst</h2>
         </div>
       </div>
 
@@ -40,7 +40,11 @@ function App() {
         </div>
         <div>
           <h2>Hello,</h2>
-          <h3>I’m Nadya, a People Analyst at GoTo Financial. </h3>
+          <h3>I’m Nadya, a People Analyst at GoTo Financial.</h3>
+          <h3> Thank you for coming over. First things first, you </h3>
+          <h3> can call me Nadya 👋🏻 Second, please bear with me,</h3>
+          <h3> it's my first project and this is going to be</h3>
+          <h3> a crappy resume. Nice to e-meet you, btw!</h3>
         </div>
       </div>
 
@@ -66,9 +70,11 @@ function App() {
         <div>
           <h2>Skills</h2>
           <div className="skills-box">
-            <p>+1234567890</p>
-            <p>nadyadhyanti@gmail.com</p>
-            <p>Jakarta, Indonesia</p>
+            <img
+              src={require("./image/bigquery_logo.png")}
+              alt="BQ Logo"
+              className="bq-logo"
+            />
           </div>
         </div>
         <div>
